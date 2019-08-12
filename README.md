@@ -1,5 +1,5 @@
 # Portfolio
-# snaranjop1.github.io
+## snaranjop1.github.io
 Web portfolio made for my web development class.
 
 ### Objective
