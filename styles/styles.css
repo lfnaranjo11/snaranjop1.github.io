@@ -140,3 +140,33 @@ ul {
 .skill {
   margin-bottom: 15px;
 }
+
+#proyects-container {
+  margin-top: 3.5%;
+}
+
+.card {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #eece1a;
+  border-width: 2px;
+}
+
+.card-title {
+  color: #eece1a;
+  font-size: 3vh;
+}
+
+#proyect-repo {
+  width: 20vh;
+  height: 4.5vh;
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vh;
+}
+
+#my-work-title {
+  text-align: center;
+  font-size: 8vh;
+  color: #eece1a;
+}
