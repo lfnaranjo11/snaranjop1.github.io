@@ -1,0 +1,142 @@
+body {
+  background-image: url("/images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.77);
+  background-size: cover;
+  z-index: -1;
+}
+  
+#name {
+  font-weight: 600;
+  font-size: 5em;
+  color: #fff;
+}
+  
+#name-container {
+  margin-top: 5%;
+  margin-left: 4%;
+}
+  
+#myname {
+  color: #eece1a;
+}
+  
+#logo {
+  width: 9.5vh;
+  height: 11.5vh;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 0px;
+}
+
+#menu {
+  width: 8vh;
+  height: 8vh;
+  position: absolute;
+  right: 75px;
+  margin-top: 3.5%;
+}
+
+.btn-outline-warning {
+  width: 30vh;
+  height: 9vh;
+  margin-top: 3.5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5vh;
+}
+
+#hire-me {
+  margin-left: 2%;
+}
+
+#aboutme-container {
+  border-right-color: #eece1a;
+  border-right-style: dashed;
+}
+  
+#aboutme-title {
+  font-weight: 600;
+  font-size: 9.5vh;
+  color: #eece1a;
+}
+
+#aboutme-text {
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+p {
+    font-weight: 200;
+    font-size: 3vh;
+    color: #fff;
+}
+  
+ul {
+  padding-left: 5%;
+}
+
+#aboutme-contactme {
+  color: #fff;
+}
+  
+#aboutme-contactme:hover {
+  color: #eece1a;
+}
+
+#aboutme-skills-container {
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+#skills-container {
+  padding-left: 2%;
+}
+
+#skills-title {
+  font-weight: 600;
+  font-size: 9.5vh;
+  color: #eece1a;
+}
+
+#skill-title-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.progress {
+  height: 50px;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.progress-bar {
+  background-color: #eece1a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5vh;
+}
+
+.skill-img {
+  width: 45px;
+  height: 45px;
+}
+
+.skill-title {
+  font-weight: 200;
+  color: #fff;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
