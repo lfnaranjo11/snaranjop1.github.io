@@ -1,18 +1,16 @@
 # Personal Responsive Portfolio Website
 ## snaranjop1.github.io
-Web portfolio made for my web development class.
 
 ### Objective
+Create a responsive portfolio website to show my work in the internet as a web developer.
 
 ### Technologies used in this project
-
 - HTML5
 - CSS3
 - Bootstrap 4
 - Javascript
 
 ### How to run the site locally 
-
 1. Fork or clone the repository
 2. Install npm 
 3. Add npm's quick server through: npm install http-server
@@ -27,7 +25,7 @@ Sergio Naranjo Puentes
 
 ### Little preview of the site:
 
-### LICENCE
+### License
 
 The MIT License (MIT)
 
