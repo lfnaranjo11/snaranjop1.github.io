@@ -11,6 +11,6 @@ Web portfolio made for my web development class.
 ### Author: 
 Sergio Naranjo Puentes
 
-#### Links:
+### Links:
 
 ### Little preview of the site:
