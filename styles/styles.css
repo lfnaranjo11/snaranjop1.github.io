@@ -170,3 +170,35 @@ ul {
   font-size: 8vh;
   color: #eece1a;
 }
+
+#contactme-title {
+  font-weight: 600;
+  font-size: 9.5vh;
+  color: #eece1a;
+  text-align: center;
+}
+
+input.form-control {
+  background: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+textarea.form-control {
+  background: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+#btn-send {
+  height: 8vh;
+  width: 15vh;
+  font-size: 3vh;
+  align-content: center;
+}
+
+#btn-form-row {
+  padding-left: 43%;
+}
