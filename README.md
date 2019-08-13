@@ -1,4 +1,4 @@
-# Personal Responsive Portfolio
+# Personal Responsive Portfolio Website
 ## snaranjop1.github.io
 Web portfolio made for my web development class.
 
