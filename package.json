@@ -1,0 +1,22 @@
+{
+  "name": "snaranjop1.github.io",
+  "version": "1.0.0",
+  "description": "Web portfolio made for my web development class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snaranjop1/snaranjop1.github.io.git"
+  },
+  "author": "Sergio Naranjo Puentes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snaranjop1/snaranjop1.github.io/issues"
+  },
+  "homepage": "https://github.com/snaranjop1/snaranjop1.github.io#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
