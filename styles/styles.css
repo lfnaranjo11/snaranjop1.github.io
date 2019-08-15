@@ -45,11 +45,11 @@ body {
   position: absolute;
   right: 75px;
   margin-top: 3.5%;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-name: menu-rotation;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-  -webkit-animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-name: menu-rotation;
+  animation-timing-function: ease-out;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
 }
 
 @keyframes menu-rotation {
@@ -80,10 +80,10 @@ body {
 .menu.show {
   visibility: visible;
   animation-duration: 0.5s;
-  -webkit-animation-name: slidein;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-play-state: running;
-  -webkit-animation-fill-mode: forwards;
+  animation-name: slidein;
+  animation-timing-function: ease-out;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slidein {
