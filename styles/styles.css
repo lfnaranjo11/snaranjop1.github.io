@@ -71,9 +71,9 @@ body {
   height: 100%;
   opacity: 1;
   visibility: hidden;
-  background: rgba(44, 44, 44, 0.99);
+  background: rgba(44, 44, 44, 0.97);
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
   z-index: 2;
 }
 
@@ -99,6 +99,16 @@ body {
 .menu-nav {
   list-style: none;
   padding-left: 0;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 6vh;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #eece1a;
 }
 
 .btn-outline-warning {
