@@ -47,6 +47,15 @@ body {
   margin-top: 3.5%;
 }
 
+#social-container {
+  margin-top: 6%;
+}
+
+.social-logo {
+  width: 8vh;
+  height: 8vh;
+}
+
 .btn-outline-warning {
   width: 30vh;
   height: 8vh;
