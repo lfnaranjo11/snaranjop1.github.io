@@ -1,3 +1,4 @@
+/*Css for all the pages*/
 body {
   background-image: url("/images/background.jpg");
   background-attachment: fixed;
@@ -5,8 +6,18 @@ body {
   font-family: 'Poppins', sans-serif
 }
 
+p {
+  font-weight: 200;
+  font-size: 3vh;
+  color: #fff;
+}
+
+ul {
+padding-left: 5%;
+}
+
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -15,22 +26,8 @@ body {
   background-size: cover;
   z-index: -1;
 }
-  
-.name {
-  font-weight: 600;
-  font-size: 5em;
-  color: #fff;
-}
-  
-#name-container {
-  margin-top: 5%;
-  margin-left: 4%;
-}
-  
-#myname {
-  color: #eece1a;
-}
-  
+
+/*Menu CSS*/
 #logo {
   width: 9.5vh;
   height: 11.5vh;
@@ -111,6 +108,22 @@ body {
   color: #eece1a;
 }
 
+/*Home page CSS (Index.html)*/
+#name-container {
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 5em;
+  color: #fff;
+}
+  
+#myname {
+  color: #eece1a;
+}
+
 .btn-outline-warning {
   width: 30vh;
   height: 8vh;
@@ -121,6 +134,13 @@ body {
 
 #hire-me {
   margin-left: 2%;
+}
+
+/*About Me Page CSS (about.html)*/
+#aboutme-skills-container {
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 2%;
 }
 
 #aboutme-container {
@@ -139,16 +159,6 @@ body {
   padding-top: 5%;
 }
 
-p {
-    font-weight: 200;
-    font-size: 3vh;
-    color: #fff;
-}
-  
-ul {
-  padding-left: 5%;
-}
-
 #aboutme-contactme {
   color: #fff;
 }
@@ -157,14 +167,13 @@ ul {
   color: #eece1a;
 }
 
-#aboutme-skills-container {
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-top: 2%;
-}
-
 #skills-container {
   padding-left: 2%;
+}
+
+#skill-title-container {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 #skills-title {
@@ -173,9 +182,18 @@ ul {
   color: #eece1a;
 }
 
-#skill-title-container {
-  text-align: center;
-  margin-bottom: 25px;
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-title {
+  font-weight: 200;
+  color: #fff;
+}
+
+.skill-img {
+  width: 45px;
+  height: 45px;
 }
 
 .progress {
@@ -191,20 +209,7 @@ ul {
   font-size: 3.5vh;
 }
 
-.skill-img {
-  width: 45px;
-  height: 45px;
-}
-
-.skill-title {
-  font-weight: 200;
-  color: #fff;
-}
-
-.skill {
-  margin-bottom: 15px;
-}
-
+/*My Work Page CSS (proyects.html)*/
 #proyects-container {
   margin-top: 3.5%;
 }
@@ -235,6 +240,7 @@ ul {
   color: #eece1a;
 }
 
+/*Contac Me Page CSS (contact.html)*/
 #contactme-title {
   font-weight: 600;
   font-size: 9.5vh;
@@ -260,9 +266,17 @@ textarea.form-control {
   height: 8vh;
   width: 15vh;
   font-size: 3vh;
-  align-content: center;
 }
 
-#btn-form-row {
-  padding-left: 43%;
+#or-container {
+  text-align: center;
+}
+
+#social-media-container {
+  margin-top: 3%;
+}
+
+.social-media-img {
+  width: 9.5vh;
+  height: 9.5vh;
 }
