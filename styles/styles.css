@@ -268,10 +268,6 @@ textarea.form-control {
   font-size: 3vh;
 }
 
-#or-container {
-  text-align: center;
-}
-
 #social-media-container {
   margin-top: 3%;
 }
@@ -279,4 +275,32 @@ textarea.form-control {
 .social-media-img {
   width: 9.5vh;
   height: 9.5vh;
+}
+
+/*CSS for mobile*/
+@media (max-width: 767.98px) {
+  #menu-img {
+    width: 7vh;
+    height: 7vh;
+    right: 40px;
+    margin-top: 7%;
+  }
+
+  #logo {
+    width: 7.5vh;
+    height: 9.5vh;
+  }
+
+  .name {
+    font-size: 3.5em;
+  }
+
+  #hire-me {
+    margin-left: 0%;
+  }
+
+  .social-media-img {
+    width: 5vh;
+    height: 5vh;
+  }
 }
