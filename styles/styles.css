@@ -255,11 +255,27 @@ input.form-control {
   border-left-color: transparent;
 }
 
+input.form-control:focus {
+  background: transparent;
+  border-color: #eece1a;
+  box-shadow: 0 0 0 0;
+}
+
 textarea.form-control {
   background: transparent;
   border-top-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
+}
+
+textarea.form-control:focus {
+  background: transparent;
+  border-color: #eece1a;
+  box-shadow: 0 0 0 0;
+}
+
+.form-row {
+  margin-bottom: 0.5vh;
 }
 
 #btn-send {
