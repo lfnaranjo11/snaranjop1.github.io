@@ -5,16 +5,17 @@
 Create a responsive portfolio website to show my work in the internet as a web developer.
 
 ### Technologies used in this project
-- HTML5
-- CSS3
-- Bootstrap 4
-- Javascript
+- HTML5: Basic.
+- CSS3: Basic, Animations and media responsive.
+- Bootstrap 4: Just CSS.
+- Javascript: Basic.
 
 ### How to run the site locally 
 1. Fork or clone the repository
-2. Install npm 
-3. Add npm's quick server through: npm install http-server
-4. Go to project directory in npm and use http-server command in the terminal to launch it (Check for the ip given in the terminal)
+2. Install node
+3. Install npm
+4. Install npm dependecies: Go to the proyect directory in the terminal and type => npm install
+5. Run the server Locally: Go to project directory in npm and use http-server command in the terminal to launch it (Check for the ip given in the terminal).
 
 ### Author: 
 Sergio Naranjo Puentes
