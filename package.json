@@ -18,5 +18,8 @@
   "homepage": "https://github.com/snaranjop1/snaranjop1.github.io#readme",
   "devDependencies": {
     "eslint": "^6.1.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
