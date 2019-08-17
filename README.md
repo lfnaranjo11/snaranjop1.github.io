@@ -25,6 +25,7 @@ Sergio Naranjo Puentes
 - https://docs.google.com/presentation/d/1Y_U9gxfeNURf9DqdDajFqmtnwNG4OTomc5EFcm2sLxA/edit?usp=sharing
 
 ### Little preview of the site:
+![Screenshot](images/screenshot.png)
 
 ### License
 
